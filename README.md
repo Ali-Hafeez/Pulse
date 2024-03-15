@@ -16,3 +16,12 @@ There are many real-world applications of the P2P network:
 2. P2P networks can scale effectively because new peers can join without putting additional strain on a central server.
 3. Since there is no central server, P2P networks are often more resilient to failures or attacks, as the network can continue to function even if some peers are offline.
 4. Participants in this type of network can share their own resources(such as bandwidth, processing power, or storage space) to provide services of content to other in the network.
+
+#### While the are widely used in many application due to their distributed nature, they also pose challenges such as:
+1. Security: P2P networks face security threats like malware, unauthorised access, and data breaches due to direct peer-to-peer communication.
+2. Quality of Service (QoS): Ensuring consistent service quality is challenging due to network variability and dynamic peer availability, impacting real-time applications like communication and streaming.
+3. Scalability: While highly scalable, managing large networks poses challenges in coordination, resource allocation, and routing protocols.
+4. Content Availability and Integrity: Maintaining content availability and integrity is difficult as peers join or leave dynamically, affecting the decentralised file-sharing applications.
+5. Fairness and Incentives: Incentivizing participation and preventing free-riding or malicious behaviour requires robust mechanisms to ensure network stability and efficiency.
+6. Legal and Regulatory issues: P2P networks counter legal challenges such as copyright infringement and data protection compliance, especially in file-sharing and content distribution.
+7. Network Heterogeneity: Managing resource utilization across peers with varying capabilities is quite complex and requires optimisation for network efficiency.
