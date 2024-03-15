@@ -6,10 +6,10 @@ It is a decentralized network architecture where the participants named “peers
 In a P2P network, each participant acts both as a client and a server, contributing resources such as computing power, disk storage, or network bandwidth to the network.
 
 There are many real-world applications of the P2P network:
--Bit-torrent: which allows file sharing
--SETI@home: allows distributed computing
--Blockchains: allows the distribution of content
--Communications: such as Skype
+1. Bit-torrent: which allows file sharing
+2. SETI@home: allows distributed computing
+3. Blockchains: allows the distribution of content
+4. Communications: such as Skype
 
 #### Key features of a decentralized network:
 1. There is no single point of failure in a P2P network. Each peer is equal and can communicate directly with the other peers
