@@ -28,13 +28,12 @@ There are many real-world applications of the P2P network:
 
 ## How I will implement this:
 So in order for me to implement this, I will be using the python library p2pd, since it allows basic implementation of a network in pythonas well as it is simple to learn and understand, so if you dont have it you run this command: 
-
-pip install p2pd
-
+```pip install p2pd
+```
 or if you are not on windows:
 
-python3 -m pip install p2pd
-
+```python3 -m pip install p2pd
+```
 Here is the link to the github:
 
 https://github.com/robertsdotpm/p2pd/tree/main
