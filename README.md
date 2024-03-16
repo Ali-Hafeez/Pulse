@@ -25,3 +25,20 @@ There are many real-world applications of the P2P network:
 5. Fairness and Incentives: Incentivizing participation and preventing free-riding or malicious behaviour requires robust mechanisms to ensure network stability and efficiency.
 6. Legal and Regulatory issues: P2P networks counter legal challenges such as copyright infringement and data protection compliance, especially in file-sharing and content distribution.
 7. Network Heterogeneity: Managing resource utilization across peers with varying capabilities is quite complex and requires optimisation for network efficiency.
+
+## How I will implement this:
+So in order for me to implement this, I will be using the python library p2pd, since it allows basic implementation of a network in pythonas well as it is simple to learn and understand, so if you dont have it you run this command: 
+
+pip install p2pd
+
+or if you are not on windows:
+
+python3 -m pip install p2pd
+
+Here is the link to the github:
+
+https://github.com/robertsdotpm/p2pd/tree/main
+
+Here is the documentation which I will be using and referring to:
+
+https://p2pd.readthedocs.io/en/latest/problems.html
