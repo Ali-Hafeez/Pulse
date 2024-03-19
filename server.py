@@ -1,12 +1,12 @@
 import socket
+import sys
 
 
-def server_program():
+def server_program(port):
     host = socket.gethostname()  # get the hostname
-    port = 5000  # initiate port no above 1024
 
     server_socket = socket.socket()  # get instance
-    server_socket.bind((host, port))  # bind host address and a port together
+    server_socket.bind((host, port))  # bind host address and port together
 
     server_socket.listen(2)
     conn, address = server_socket.accept()  # accept new connection
@@ -23,4 +23,9 @@ def server_program():
 
 
 if __name__ == '__main__':
-    server_program()
+    if len(sys.argv) != 2:
+        print("Usage: python server.py <port>")
+        sys.exit(1)
+
+    port = int(sys.argv[1])
+    server_program(port)
